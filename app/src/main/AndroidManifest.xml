@@ -10,17 +10,17 @@
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name=".OfflineMailActivity"
+            android:name="com.local.akbmailarchive.OfflineMailActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".OfflineListActivity"
+            android:name="com.local.akbmailarchive.OfflineListActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.local.akbmailarchive.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
