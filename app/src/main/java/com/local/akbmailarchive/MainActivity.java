@@ -15,6 +15,8 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.azudaisuki.akbmailarchive.BuildConfig;
+import com.azudaisuki.akbmailarchive.R;
 import com.local.akbmailarchive.backup.BackupManager;
 import com.local.akbmailarchive.backup.BackupResult;
 import com.local.akbmailarchive.model.ArchivedMail;
