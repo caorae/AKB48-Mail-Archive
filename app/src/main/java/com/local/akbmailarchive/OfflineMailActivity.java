@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.azudaisuki.akbmailarchive.R;
 import com.local.akbmailarchive.model.ArchivedMail;
 import com.local.akbmailarchive.storage.ArchiveDatabase;
 import com.local.akbmailarchive.storage.ArchiveStore;
