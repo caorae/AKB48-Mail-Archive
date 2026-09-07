@@ -14,6 +14,10 @@ android {
         versionName = "0.3.22"
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
