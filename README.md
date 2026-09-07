@@ -1,4 +1,4 @@
-# AKB48 Mail Archive (Unofficial) — Android v0.3.22
+# AKB48 Mail Archive (非公式) — Android v0.3.22
 
 [日本語](#日本語) · [English](#english) · [简体中文](#简体中文)
 
