@@ -1,0 +1,10 @@
+如果 Android Studio 第一次打开时报 Gradle/SDK 错误：
+
+1. Settings -> Build, Execution, Deployment -> Build Tools -> Gradle
+2. Gradle JDK 选择 JDK 17（Android Studio 自带的 jbr 通常可以）
+3. Tools -> SDK Manager
+4. 安装 Android SDK Platform 35
+5. Sync Project with Gradle Files
+
+本压缩包没有附带 Gradle 二进制或 Android SDK。
+Android Studio 会根据项目配置完成同步。

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App / main screen -->
+    <string name="app_name">AKB48 Mail Archive（非公式）</string>
+    <string name="main_title">AKB48 Mail Archive</string>
+    <string name="main_subtitle">非公式・ローカル保存版 v%1$s\n引き継ぎ情報を使用して、メール本文と画像を端末内に保存します。</string>
+
+    <string name="button_offline_view">オフライン閲覧</string>
+    <string name="button_export_zip">ZIP書き出し</string>
+
+    <string name="label_inheritance_id">引き継ぎID</string>
+    <string name="hint_inheritance_id">user_id</string>
+
+    <string name="label_inheritance_password">引き継ぎパスワード</string>
+    <string name="hint_inheritance_password">公式アプリで発行した3日間有効の引き継ぎパスワード</string>
+
+    <string name="button_backup_all">引き継いで全件バックアップを開始</string>
+    <string name="status_ready">準備完了</string>
+
+    <string name="privacy_notice">引き継ぎパスワード / User-Id / Access-Token はアーカイブやZIPファイルに保存しません。メール本文・画像の取得はGETリクエストのみで行い、既読・スター状態を変更するAPIは使用しません。</string>
+
+    <string name="content_notice">公式案内では、AKB48 Mailの内容をSNSへ投稿・転載・再配布することは禁止されています。保存したメールや画像は個人での閲覧・保管を目的として取り扱ってください。</string>
+
+    <string name="preview_title_latest">ローカル保存済み（最新20通）</string>
+    <string name="local_archive_empty">まだローカルメールはありません。</string>
+    <string name="local_summary">保存済み：%1$d通 / 本文：%2$d / 画像：%3$d</string>
+
+    <!-- Login / backup status -->
+    <string name="error_inheritance_id_required">引き継ぎIDを入力してください</string>
+    <string name="error_password_required">引き継ぎパスワードを入力してください</string>
+
+    <string name="status_inheritance_running">一時ユーザーを作成し、引き継ぎを実行しています…</string>
+
+    <string name="status_login_success">引き継ぎ完了\n全メール一覧を取得しています…</string>
+    <string name="status_login_success_with_nickname">引き継ぎ完了 / %1$s\n全メール一覧を取得しています…</string>
+
+    <string name="status_backup_complete">バックアップ完了\nページ：%1$d / メール：%2$d / 本文：%3$d / 画像：%4$d</string>
+
+    <string name="status_detail_failures">\n本文取得失敗：%1$d（再実行時に再試行します）</string>
+    <string name="status_image_failures">\n画像取得失敗：%1$d（再実行時に再試行します）</string>
+
+    <string name="diagnostic_header">\n\n--- 診断情報（パスワード・トークンの値は含みません） ---\n</string>
+
+    <!-- Backup progress -->
+    <string name="progress_inbox_fetching">メール一覧の%1$dページ目を取得しています…</string>
+    <string name="progress_inbox_saved">一覧取得：%1$dページ目 / %2$d通</string>
+    <string name="progress_detail_fetching">本文取得：%1$d / %2$d　%3$s</string>
+    <string name="progress_image_fetching">画像取得：メール %1$d/%2$d　画像 %3$d/%4$d</string>
+
+    <string name="error_inbox_page_limit">安全のため停止しました：メール一覧のページ数が上限を超えています</string>
+    <string name="error_empty_resource">取得したデータが空です</string>
+    <string name="error_detail_failed">本文の取得に失敗しました</string>
+    <string name="error_resource_failed">リソースの取得に失敗しました</string>
+    <string name="error_backup_cancelled">バックアップを中止しました</string>
+
+    <!-- ZIP export -->
+    <string name="status_zip_exporting">ZIPを書き出しています…</string>
+    <string name="error_export_destination_unavailable">保存先を開けませんでした</string>
+    <string name="status_zip_export_complete">ZIP書き出し完了</string>
+    <string name="status_zip_export_failed">ZIP書き出し失敗：%1$s</string>
+
+    <!-- Error presentation -->
+    <string name="error_auth_401">認証エラー（HTTP 401）\n%1$s</string>
+    <string name="error_terms_426">利用規約バージョンエラー（HTTP 426）\n%1$s</string>
+    <string name="error_api_http">APIエラー HTTP %1$d\n%2$s</string>
+    <string name="error_generic">エラー：%1$s</string>
+    <string name="unknown_error">不明</string>
+    <string name="error_sensitive_redirect_blocked">安全のため、認証情報を含むリクエストの外部サイトへのリダイレクトを停止しました。</string>
+
+    <!-- Offline list -->
+    <string name="offline_title">AKB48 Mail Archive（オフライン）</string>
+    <string name="search_hint">メンバー・件名・本文を検索</string>
+    <string name="search_button">検索</string>
+    <string name="filter_all_years">すべての年</string>
+    <string name="filter_all_members">すべてのメンバー</string>
+    <string name="offline_summary">表示：%1$d通 / 保存済み：%2$d通</string>
+    <string name="offline_summary_limited">（最新%1$d通を表示中。検索で絞り込めます）</string>
+    <string name="no_subject">（件名なし）</string>
+
+    <!-- Offline mail reader -->
+    <string name="mail_not_found">ローカルメールが見つかりません。</string>
+    <string name="mail_body_not_saved">本文はローカルに保存されていません。</string>
+    <string name="favorite_remove">★ お気に入りから削除（端末内）</string>
+    <string name="favorite_add">☆ お気に入りに追加（端末内）</string>
+
+</resources>
