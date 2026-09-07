@@ -2,7 +2,7 @@ package com.local.akbmailarchive.backup;
 
 import android.content.Context;
 
-import com.yagidaisuki.akbmailarchive.R;
+import com.local.akbmailarchive.R;
 import com.local.akbmailarchive.model.ArchivedMail;
 import com.local.akbmailarchive.model.DownloadedResource;
 import com.local.akbmailarchive.model.InboxPage;

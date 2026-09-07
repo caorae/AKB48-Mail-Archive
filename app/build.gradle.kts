@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.yagidaisuki.akbmailarchive"
+    namespace = "com.local.akbmailarchive"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.yagidaisuki.akbmailarchive"
+        applicationId = "com.local.akbmailarchive"
         minSdk = 26
         targetSdk = 35
         versionCode = 7

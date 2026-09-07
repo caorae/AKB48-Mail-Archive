@@ -17,7 +17,6 @@ import android.widget.Spinner;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.yagidaisuki.akbmailarchive.R;
 import com.local.akbmailarchive.model.ArchivedMail;
 import com.local.akbmailarchive.storage.ArchiveDatabase;
 
